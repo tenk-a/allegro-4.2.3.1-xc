@@ -58,3 +58,7 @@ Temporary Items
 # Debug files
 *.dSYM/
 *.su
+
+obj
+*.bak
+*.tmp
