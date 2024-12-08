@@ -39,6 +39,10 @@ void operator delete(void *ptr)
     free (ptr);
 }
 
+void operator delete(void *ptr, size_t)
+{
+  operator delete(ptr);
+}
 
 /* Our favorite pet. */
 class rodent {
